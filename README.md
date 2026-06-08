@@ -1,8 +1,12 @@
-# DocFinder AI
+# 📚 DocFinder AI
 
 This is my project for searching inside PDF files. You can upload PDFs and then ask questions from them. It will show you the most related text from your documents.
 
 Made by **Abdul Aziz**
+
+## 🌐 Live Demo
+
+👉 [View Project on Streamlit](https://assignment-15-gsjnm98vennnqssh6nf7qv.streamlit.app/)
 
 ---
 
@@ -61,11 +65,11 @@ DocFinder-AI/
 ├── README.md                
 ├── generate_sample_pdfs.py  
 ├── sample_pdfs/             
-│   ├── 01_Artificial_Intelligence.pdf
-│   ├── 02_Climate_Change.pdf
-│   ├── 03_Space_Exploration.pdf
-│   ├── 04_Cybersecurity.pdf
-│   └── 05_Blockchain_Technology.pdf
+│   ├── 01_Machine_Learning.pdf
+│   ├── 02_Internet_of_Things.pdf
+│   ├── 03_Cloud_Computing.pdf
+│   ├── 04_Natural_Language_Processing.pdf
+│   └── 05_Data_Science.pdf
 └── utils/
     ├── pdf_processor.py     
     ├── embeddings.py        
@@ -85,16 +89,14 @@ DocFinder-AI/
 
 ## Sample Questions you can try
 
-- What is artificial intelligence?
-- How does climate change affect environment?
-- What happened in space exploration?
-- What is cybersecurity?
-- How does blockchain work?
+- What is machine learning and how does it work?
+- What are the security risks in IoT devices?
+- What are the benefits of cloud computing?
+- How does natural language processing understand text?
+- What tools do data scientists use?
 
 ---
 
 ## Author
 
-Abdul Aziz  
-This project was made as part of university assignment on information retrieval and semantic search.
-"# ASSIGNMENT-15" 
+**Abdul Aziz**
