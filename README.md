@@ -1,0 +1,100 @@
+# DocFinder AI
+
+This is my project for searching inside PDF files. You can upload PDFs and then ask questions from them. It will show you the most related text from your documents.
+
+Made by **Abdul Aziz**
+
+---
+
+## What this project does
+
+- You upload PDF files
+- The system reads them and saves them in Pinecone database
+- Then you can search anything and it finds the answer from your PDFs
+- It uses AI embeddings to understand meaning not just keywords
+
+---
+
+## Tools and Libraries Used
+
+- Python
+- Streamlit (for the website interface)
+- SentenceTransformers (for converting text to vectors)
+- Pinecone (for storing and searching vectors)
+- pypdf (for reading PDF files)
+
+---
+
+## How to run
+
+First install the requirements:
+
+```
+pip install -r requirements.txt
+```
+
+Then run the app:
+
+```
+streamlit run app.py
+```
+
+---
+
+## How to use
+
+1. Open the app in browser
+2. Enter your Pinecone API key in the sidebar (get it free from pinecone.io)
+3. Go to Add Documents tab and upload your PDF files
+4. Click Start Indexing button
+5. Then go to Find Answers tab and type your question
+6. It will show matching results with score
+
+---
+
+## Project Files
+
+```
+DocFinder-AI/
+├── app.py                   
+├── requirements.txt         
+├── README.md                
+├── generate_sample_pdfs.py  
+├── sample_pdfs/             
+│   ├── 01_Artificial_Intelligence.pdf
+│   ├── 02_Climate_Change.pdf
+│   ├── 03_Space_Exploration.pdf
+│   ├── 04_Cybersecurity.pdf
+│   └── 05_Blockchain_Technology.pdf
+└── utils/
+    ├── pdf_processor.py     
+    ├── embeddings.py        
+    └── pinecone_client.py   
+```
+
+---
+
+## Pinecone Setup
+
+- Go to app.pinecone.io and make a free account
+- Copy your API key from dashboard
+- Paste it in the sidebar when you open the app
+- Index will be created automatically
+
+---
+
+## Sample Questions you can try
+
+- What is artificial intelligence?
+- How does climate change affect environment?
+- What happened in space exploration?
+- What is cybersecurity?
+- How does blockchain work?
+
+---
+
+## Author
+
+Abdul Aziz  
+This project was made as part of university assignment on information retrieval and semantic search.
+"# ASSIGNMENT-15" 
